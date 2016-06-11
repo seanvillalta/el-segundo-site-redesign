@@ -8,12 +8,20 @@
         </div>
         <div class="row">
             <div class="medium-6 columns medium-push-6">
-                <img class="thumbnail" src="<?php echo get_bloginfo('template_directory'); ?>/assets/src/img/water-tower.jpg">
+
+                <img class="thumbnail" src="<?php bloginfo('template_url'); ?>/assets/src/img/water-tower.jpg">
+            
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
             </div>
             <div class="medium-6 columns medium-pull-6">
-                <h2>Ocean Water Desalination Briefing & Tour</h2>
-                <p>Join us on Saturday, June 11 at 9:00 a.m. to learnhow West Basin is exploring responsible ocean water desalination to diversifythe district's water supply portfolio and increase water reliability for ourregion! The presentation includes a brief tour of the renowned Edward C. LittleWater Recycling Facility, which showcases the same water purificationtechnologies that turn seawater into drinking water.</p>
+                <h2><?php the_title(); ?></h2>
+                <p><?php the_content(); ?></p>
+
+            <?php endwhile; else : ?>
+                <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+            <?php endif; ?>
+
             </div>
         </div>
         <hr>
