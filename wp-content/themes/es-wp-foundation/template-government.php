@@ -12,7 +12,7 @@
             </div>
             <div class="medium-6 columns">
                 <h3>Government</h3>
-                <p>City Services including: City Clerk, City Manager's Office, City Treasurer, Elected Officials, Finance, Fire Department, Human Resources, Library, Planning and Building Safety, Police Department, Public Works, Recreation and Parks</p>
+                <p>Government Services including: City Clerk, City Manager's Office, City Treasurer, Elected Officials, Finance, Fire Department, Human Resources, Library, Planning and Building Safety, Police Department, Public Works, Recreation and Parks</p>
             </div>
         </div>
         <hr>
