@@ -71,7 +71,7 @@
                         </p>
                         <p>
                             <span style='font-weight: bold;'>How can I go directly to the schedule for cable tv?</span></br>
-                            • The schedule for El Segundo Cable TV is always available at esCable.org/schedule.
+                            • The schedule for El Segundo Cable TV is always available at <a href="http://www.elsegundo.org/cable/" target="_blank">esCable.org/schedule</a>.
                         </p>
                     </div>
                 </div>
