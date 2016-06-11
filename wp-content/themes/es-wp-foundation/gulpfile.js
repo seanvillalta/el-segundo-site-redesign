@@ -77,6 +77,8 @@ gulp.task('browser-sync', function() {
         // Read here http://www.browsersync.io/docs/options/
 
         proxy: 'http://elsegundo.dev/',
+        proxy: 'http://el-segundo-redesign.dev/',
+
 
 
         port: 8080,
