@@ -13,6 +13,21 @@
 			<h1>City News</h1>
 				<img class="thumbnail" src="<?php bloginfo('template_url'); ?>/assets/dest/img/water-tower.jpg">
 
+			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+				<h2><?php the_title(); ?></h2>
+				<p><?php the_content(); ?></p>
+
+				<!-- <div class="callout">
+				  <ul class="menu simple">
+				    <li><a href="#">Written by: Jacob, Jay and Sean</a></li>
+				    <li><a href="#">Comments: 3</a></li>
+				  </ul>
+				</div> -->
+
+			<?php endwhile; else : ?>
+				<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+			<?php endif; ?>
 
 			</div>
 

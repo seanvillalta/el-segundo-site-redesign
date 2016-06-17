@@ -6,24 +6,7 @@
                 <p class="lead">Lorem ipsum dolor sit amet.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="medium-6 columns medium-push-6">
 
-                <img class="thumbnail" src="<?php bloginfo('template_url'); ?>/assets/src/img/water-tower.jpg">
-            
-            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
-            </div>
-            <div class="medium-6 columns medium-pull-6">
-                <h2><?php the_title(); ?></h2>
-                <p><?php the_content(); ?></p>
-
-            <?php endwhile; else : ?>
-                <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-            <?php endif; ?>
-
-            </div>
-        </div>
         <hr>
         <div class="row">
             <div class="medium-4 columns">
