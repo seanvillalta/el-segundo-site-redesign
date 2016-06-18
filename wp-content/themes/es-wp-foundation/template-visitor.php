@@ -1,10 +1,21 @@
 <?php
 /*
-  Template Name: City News Blog
+  Template Name: Template-Visitor
  */
 ?>
 
 <?php get_header(); ?>
+<br>
+        <div class="row">
+            <div class="medium-6 columns">
+                <img class="thumbnail" src="<?php bloginfo('template_url'); ?>/assets/dest/img/pink-sky.jpg">
+            </div>
+            <div class="medium-6 columns">
+                <h3>Visitor</h3>
+                <p>Visitor: Available Documents, Frequently Asked Questions, and El Segundo Payment Links</p>
+            </div>
+        </div>
+        <hr>
 
         <div class="row">
           <!-- Main Blog Content -->
@@ -37,14 +48,19 @@
           <!-- End Main Content -->
         
           <!-- Sidebar -->
+          <br>
+          <br>
           <aside class="large-3 columns">
             <h5>Categories</h5>
-            <ul class="side-nav">
-              <li><a href="#">City</a></li>
-              <li><a href="#">School</a></li>
-              <li><a href="#">Beach</a></li>
-              <li><a href="#">Business</a></li>
-              <li><a href="#">Restaurants</a></li>
+            <ul class="no-bullet">
+              <li><a href="#">Map</a></li>
+              <li><a href="#">Census</a></li>
+              <li><a href="#">Services & Agencies</a></li>
+              <li><a href="#">Schools</a></li>
+              <li><a href="#">Places of Worship</a></li>
+              <li><a href="#">Clubs & Orginization Meetings</a></li>
+              <li><a href="#">Hotels</a></li>
+              <li><a href="#">Area Atrractions</a></li>
             </ul>
         
             <div class="panel">

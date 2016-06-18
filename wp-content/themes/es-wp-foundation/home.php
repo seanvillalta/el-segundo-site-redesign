@@ -2,7 +2,7 @@
 
 		<div class="callout large home-hero">
 			<div class="row column text-center">
-				<img src="<?php echo get_bloginfo('template_directory'); ?>/assets/dest/img/welcome-el-segundo.png" alt="welcome to el segundo">
+				<img src="<?php bloginfo('template_url'); ?>/assets/dest/img/welcome-el-segundo.png" alt="welcome to el segundo">
 				<p class="lead">Lorem ipsum dolor sit amet.</p>
 			</div>
 		</div>
@@ -17,18 +17,19 @@
 			      
 			      <h3 class="subheader">Latest News</h3>
 			      
+			        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+			      
 			      <article class="post">
 			        <a href="<?php the_permalink(); ?>">
 
 			          <?php the_post_thumbnail(); ?>
 			        </a>
 
-			        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 			        <div class="content">
 			          <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			          <p>Written by <strong><?php the_author(); ?></strong> <span class="verified"></span></p>
-			          <p><?php the_content(); ?></p>
+			          <p><?php the_excerpt(); ?></p>
 			          <p>___</p>
 			          <p><?php echo the_time('l, F jS, Y'); ?></p>
 			        </div>
