@@ -29,4 +29,13 @@ function register_theme_menus() {
 }
 add_action( 'init', 'register_theme_menus' );
 
+// Image size for feature image
+add_theme_support( 'post-thumbnails' );
+// set_post_thumbnail_size( 50, 50);
+
+// Image size for single posts
+// add_image_size( 'single-post-thumbnail', 590, 180 );
+
+
+
 ?>

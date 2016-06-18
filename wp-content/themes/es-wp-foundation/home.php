@@ -9,31 +9,43 @@
 
 		<!-- Main Content -->
 		<div class="row">
-			<div class="large-9 push-3 columns">
-			<h1>City News</h1>
-				<img class="thumbnail" src="<?php bloginfo('template_url'); ?>/assets/dest/img/water-tower.jpg">
+			
+			<div class="large-9 push-3 columns" role="content">
 
-			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+			  <div class="row">
+			    <div class="small-12 columns">
+			      
+			      <h3 class="subheader">Latest News</h3>
+			      
+			      <article class="post">
+			        <a href="<?php the_permalink(); ?>">
 
-				<h2><?php the_title(); ?></h2>
-				<p><?php the_content(); ?></p>
+			          <?php the_post_thumbnail(); ?>
+			        </a>
 
-				<!-- <div class="callout">
-				  <ul class="menu simple">
-				    <li><a href="#">Written by: Jacob, Jay and Sean</a></li>
-				    <li><a href="#">Comments: 3</a></li>
-				  </ul>
-				</div> -->
+			        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
+			        <div class="content">
+			          <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+			          <p>Written by <strong><?php the_author(); ?></strong> <span class="verified"></span></p>
+			          <p><?php the_content(); ?></p>
+			          <p>___</p>
+			          <p><?php echo the_time('l, F jS, Y'); ?></p>
+			        </div>
+			      </article> 
+			      
+			    </div>
+			  </div>
 			<?php endwhile; else : ?>
 				<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 			<?php endif; ?>
+			  <hr />
 
 			</div>
 
 				<!-- Calendar -->
 				<div class="large-3 pull-9 columns ">
-				<h2>City Events</h2>
+				<h3 class="subheader">Calendar</h3>
 				  <div class="calendar">
 					<div class="month">
 					  <a href="#" class="back"></a>
@@ -87,6 +99,8 @@
 
 				<!-- Event Listing -->
 				<div class="large-3 pull-9 columns">
+				<hr />
+				<h3 class="subheader">City Events</h3>
 				  <article class="event">
 
 					  <div class="event-date">
@@ -95,14 +109,12 @@
 					  </div>
 
 					  <div class="event-desc">
-						<h4 class="event-desc-header">16th Annual Author Fair</h4>
+						<h5 class="event-desc-header">16th Annual Author Fair</h5>
 						<p class="event-desc-detail"><span class="event-desc-time"></span>El Segundo High School</p>
 						<a href="http://bdconf.com/speakers/brandon-arnold/" class="rsvp button">More Details</a>
 					  </div>
 
 					</article>
-
-					<hr>
 
 					<article class="event">
 
@@ -112,7 +124,7 @@
 					  </div>
 
 					  <div class="event-desc">
-						<h4 class="event-desc-header">Parks & Recs Meeting</h4>
+						<h5 class="event-desc-header">Parks & Recs Meeting</h5>
 						<p class="event-desc-detail"><span class="event-desc-time"></span>El Segundo Public Library</p>
 						<a href="http://bdconf.com/speakers/brandon-arnold/" class="rsvp button">More Details</a>
 					  </div>
