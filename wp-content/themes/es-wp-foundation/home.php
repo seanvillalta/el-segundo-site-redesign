@@ -3,7 +3,7 @@
 		<div class="callout large home-hero">
 			<div class="row column text-center">
 				<img src="<?php bloginfo('template_url'); ?>/assets/dest/img/welcome-el-segundo.png" alt="welcome to el segundo">
-				<p class="lead">"We're still the friendly city -- it's just not our motto"</p>
+				<p class="lead"><strong>"We're still the friendly city -- it's just not our motto"</strong></p>
 			</div>
 		</div>
 
@@ -15,7 +15,7 @@
 			  <div class="row">
 			    <div class="small-12 columns">
 			      
-			      <h3 class="subheader">Latest News</h3>
+			      <h3 class="subheader">Recent News</h3>
 
 			        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			      
@@ -29,7 +29,7 @@
 			        <div class="content">
 			        <br>
 			          <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-			          <p>Written by <strong><?php the_author(); ?></strong> <span class="verified"></span></p>
+			          <p>Written by <strong><?php the_author(); ?></strong></p>
 			          <p><?php the_excerpt(); ?></p>
 			          <p>___</p>
 			          <p><?php echo the_time('l, F jS, Y'); ?></p>
@@ -157,7 +157,5 @@
 				</blockquote>
 			</div>
 		</div>
-
-		<hr>
 
 	<?php get_footer(); ?>

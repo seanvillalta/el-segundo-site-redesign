@@ -21,7 +21,7 @@
                     </a>
                     <div class="content">
                     <br>
-                      <p>Whoever said that no one is perfect obviously never saw Chuck Norris If you ask Chuck Norris what time it is, he always says, "Two seconds 'til." After you ask, "Two seconds 'til what?" he roundhouse kicks you in the face</p>
+                      <p><strong>Chuck Norris is currently suing NBC, claiming Law and Order are trademarked names for his left and right legs Contrary to popular belief, America is not a democracy, it is a Chucktatorship Chuck Norris uses pepper spray to spice up his steaks. If you spell Chuck Norris in Scrabble, you win.</strong></p>
                     </div>
                   </article>
 
@@ -35,13 +35,13 @@
             <aside class="large-3 columns">
               <h5>Categories</h5>
               <ul class="no-bullet">
-                <li><a href="#">Map</a></li>
-                <li><a href="#">Census</a></li>
-                <li><a href="#">Services & Agencies</a></li>
-                <li><a href="#">Schools</a></li>
-                <li><a href="#">Places of Worship</a></li>
-                <li><a href="#">Clubs & Orginizations</a></li>
-                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Administrative Services</a></li>
+                <li><a href="#">City Clerk</a></li>
+                <li><a href="#">City Manager</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Police Department</a></li>
+                <li><a href="#">Public Works</a></li>
+                <li><a href="#">Recreation & Parks</a></li>
               </ul>
 
             </aside>

@@ -22,7 +22,7 @@ Template Name: Template-Visitor
                   </a>
                   <div class="content">
                   <br>
-                    <p>Whoever said that no one is perfect obviously never saw Chuck Norris If you ask Chuck Norris what time it is, he always says, "Two seconds 'til." After you ask, "Two seconds 'til what?" he roundhouse kicks you in the face</p>
+                    <p><strong>Whoever said that no one is perfect obviously never saw Chuck Norris If you ask Chuck Norris what time it is, he always says, "Two seconds 'til." After you ask, "Two seconds 'til what?" he roundhouse kicks you in the face</strong></p>
                   </div>
                 </article>
 
@@ -90,6 +90,12 @@ Template Name: Template-Visitor
         	          	    <div class="large-6 columns">
 							<h3 style="visibility: hidden;">Council Meeting</h3>
 							<h6 style="visibility: hidden;">Built with Foundation</h6>
+								<div class="row">
+									<div class="large-10 columns">
+										<img src="<?php bloginfo('template_url');?>/assets/dest/img/chart.png" alt="">
+									</div>
+									<div class="large-2 large-offset-10 columns"></div>
+								</div>
         	          	    <p><strong>Ethnicity</strong></p>
         	          	    <p>African American: 300 (1.9%) <br>Caucasian: 11,282 (69.9%) <br>Latin/Hispanic: 2,891 (17.9%) <br>Native American: 116 (0.7%) <br>Native Hawaiian: 31 (0.2%) <br>Other race: 71 (0.4%)</p>
         	          	    <p><strong>School Enrollment</strong></p>

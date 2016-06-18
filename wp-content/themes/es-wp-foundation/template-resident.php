@@ -22,7 +22,7 @@ Template Name: Template-Resident
                   </a>
                   <div class="content">
                   <br>
-                    <p>Whoever said that no one is perfect obviously never saw Chuck Norris If you ask Chuck Norris what time it is, he always says, "Two seconds 'til." After you ask, "Two seconds 'til what?" he roundhouse kicks you in the face</p>
+                    <p><strong>Chuck Norris can win a game of Connect Four in only three moves. Chuck Norris will attain statehood in 2009. His state flower will be the Magnolia When Chuck Norris searches for a Wii online, he types in "we"... </strong></p>
                   </div>
                 </article>
 
@@ -55,10 +55,13 @@ Template Name: Template-Resident
         <div class="row">
         	<article class="website-example row wide">
         	    <div class="large-6 columns">
-        	      <h3>Council Meeting</h3>
+        	      <h3>Council Meetings</h3>
         	      <h6>Come and Voice Your Opinions</h6>
         	      <p>The City Council meets the first and third Tuesday of the month at 7 pm. in the City Hall Council Chamber, 350 Main Street. For more information call the City Council office at 524-2302.</p>
-        	      <p>Unless otherwise noted in the Agenda, the Public can only comment on City-related business that is within the jurisdiction of the City Council and/or items listed on the Agenda during the <strong>Public Communications</strong> portions of the Meeting. Additionally, the Public can comment on any Public Hearing item on the Agenda during the Public Hearing portion of such item. The time limit for comments is five (5) minutes per person.</p>
+        	      <br>
+        	      <blockquote class="cite">
+        	      	<p>Unless otherwise noted in the Agenda, the Public can only comment on City-related business that is within the jurisdiction of the City Council and/or items listed on the Agenda during the <strong>Public Communications</strong> portions of the Meeting. Additionally, the Public can comment on any Public Hearing item on the Agenda during the Public Hearing portion of such item. The time limit for comments is five (5) minutes per person.</p>
+        	      </blockquote>
         	      <p><i>Before speaking to the City Council, please come to the podium and state: Your name and residence and the organization you represent, if desired. Please respect the time limits.</i></p>
         	    </div>
         	    <div class="large-6 columns">
