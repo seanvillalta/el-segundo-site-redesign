@@ -8,15 +8,74 @@
 
     <br>
         <div class="row">
-            <div class="medium-6 columns">
-                <img class="thumbnail" src="<?php bloginfo('template_url'); ?>/assets/dest/img/pink-sky.jpg">
+            <div class="large-9 columns" role="content">
+
+              <div class="row">
+                <div class="small-12 columns">
+
+                  <h3 class="subheader">Services</h3>
+
+                  <article class="post">
+                    <a href="#">
+                      <img src="<?php bloginfo('template_url');?>/assets/dest/img/segundo.jpg" />
+                    </a>
+                    <div class="content">
+                    <br>
+                      <p>Whoever said that no one is perfect obviously never saw Chuck Norris If you ask Chuck Norris what time it is, he always says, "Two seconds 'til." After you ask, "Two seconds 'til what?" he roundhouse kicks you in the face</p>
+                    </div>
+                  </article>
+
+                </div>
+              </div>
+
             </div>
-            <div class="medium-6 columns">
-                <h3>City Services</h3>
-                <p>City Services including: Available Documents, Frequently Asked Questions, and El Segundo Payment Links</p>
-            </div>
+            <!-- Sidebar -->
+            <br>
+            <br>
+            <aside class="large-3 columns">
+              <h5>Categories</h5>
+              <ul class="no-bullet">
+                <li><a href="#">Map</a></li>
+                <li><a href="#">Census</a></li>
+                <li><a href="#">Services & Agencies</a></li>
+                <li><a href="#">Schools</a></li>
+                <li><a href="#">Places of Worship</a></li>
+                <li><a href="#">Clubs & Orginizations</a></li>
+                <li><a href="#">Hotels</a></li>
+              </ul>
+
+            </aside>
+            <!-- End Sidebar -->
         </div>
-        <hr>
+        <div class="row">
+        	<article class="website-example row wide">
+        		<div class="large-6 columns">
+        		<h3>Services El Segundo Provides</h3>
+        		  <p><strong>The Department of Administration directs, facilitates, and assists municipal departments and agencies in delivering services to El Segundo residents, businesses, and visitors as efficiently and cost effectively as possible.</strong></p>
+        		  <br>
+        		  <blockquote class="cite">
+        		        <p>The mission of the Department of Health and Community Wellness is to provide and advocate for comprehensive health care, social, and environmental services for Newark citizens and other consumers to ensure an optimal level of health and well-being.</p>
+        		  </blockquote>
+        		  <p><strong>On January 18, 1917, less than six years after the opening of the refinery, the City of El Segundo was incorporated.</strong></p>
+        		</div>
+        		<div class="large-6 columns">
+        		<h3 style="visibility: hidden;">Services El Segundo Provides</h3>
+        		  <p>The Department of Administration directs, facilitates, and assists municipal departments and agencies in delivering services to El Segundo residents, businesses, and visitors as efficiently and cost effectively as possible.</p>
+        		  <br>
+
+        						 <blockquote class="cite">
+        						 	<a href="/finance">Administrative Services</a></br>
+        						 	        		                 <a href="/city-clerk">City Clerk</a></br>
+        						 	        		                 <a href="/city-manager">City Manager</a></br>
+        						 	        		                 <a href="/library">Library</a></br>
+        						 	        		                 <a href="/police-department">Police Department</a></br>
+        						 	        		                 <a href="/public-works">Public Works</a></br>
+        						 	        		                 <a href="/recreation-parks">Recreation &amp; Parks</a>
+        						 </blockquote>
+        		</div>
+        	    
+        	  </article>
+        </div>
         <div class="row">
             <div class="medium-6 columns">
                 <div class="media-object">
