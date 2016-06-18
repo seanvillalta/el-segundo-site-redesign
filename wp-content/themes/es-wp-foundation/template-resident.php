@@ -18,7 +18,7 @@ Template Name: Template-Resident
 
                 <article class="post">
                   <a href="#">
-                    <img src="<?php bloginfo('template_url');?>/assets/dest/img/high-school.jpg" />
+                    <img src="<?php bloginfo('template_url');?>/assets/dest/img/apt-view.jpg" />
                   </a>
                   <div class="content">
                   <br>
@@ -56,7 +56,7 @@ Template Name: Template-Resident
         	<article class="website-example row wide">
         	    <div class="large-6 columns">
         	      <h3>Council Meeting</h3>
-        	      <h6>built with foundation</h6>
+        	      <h6>Come and Voice Your Opinions</h6>
         	      <p>The City Council meets the first and third Tuesday of the month at 7 pm. in the City Hall Council Chamber, 350 Main Street. For more information call the City Council office at 524-2302.</p>
         	      <p>Unless otherwise noted in the Agenda, the Public can only comment on City-related business that is within the jurisdiction of the City Council and/or items listed on the Agenda during the <strong>Public Communications</strong> portions of the Meeting. Additionally, the Public can comment on any Public Hearing item on the Agenda during the Public Hearing portion of such item. The time limit for comments is five (5) minutes per person.</p>
         	      <p><i>Before speaking to the City Council, please come to the podium and state: Your name and residence and the organization you represent, if desired. Please respect the time limits.</i></p>
