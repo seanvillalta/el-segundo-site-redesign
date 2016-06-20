@@ -18,7 +18,7 @@ Template Name: Template-Business
 
 				<article class="post">
 					<a href="#">
-						<img src="<?php bloginfo('template_url');?>/assets/dest/img/apt-view.jpg" />
+						<img src="<?php bloginfo('template_url');?>/assets/dest/img/business.jpg" />
 					</a>
 					<div class="content">
 						<br>
